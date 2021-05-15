@@ -39,6 +39,20 @@ title 大前端趋势分析
 
 
 * 大前端 <<level1>>
+** 设计模式 <<level2>>
+*** MVC <<level3>>
+**** Model <<level4>>
+**** View <<level4>>
+**** Controller <<level4>>
+*** MVP <<level3>>
+**** Model <<level4>>
+**** View <<level4>>
+**** Presenter <<level4>>
+*** MVVM <<level3>>
+**** Model <<level4>>
+**** View <<level4>>
+**** ViewModel <<level4>>
+
 ** 网页端 <<level2>>
 *** 测试框架 <<level3>>
 **** 都有默认的推荐 <<level4>>
