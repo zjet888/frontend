@@ -1,0 +1,111 @@
+@startmindmap
+<style>
+mindmapDiagram {
+    .level1 {
+        BackgroundColor Orange
+    }
+    .level2 {
+        BackgroundColor lightgreen
+    }
+    .level3 {
+        BackgroundColor FFBBCC
+    }
+
+    .level4 {
+        BackgroundColor lightblue
+    }
+
+    .level5 {
+        BackgroundColor LightCoral
+    }
+    .level6 {
+        BackgroundColor LightCyan
+    }
+    .level7 {
+        BackgroundColor LightGoldenRodYellow
+    }
+    .level8 {
+        BackgroundColor LightGrey
+    }
+    .level9 {
+        BackgroundColor LightSalmon
+    }
+    .level10 {
+        BackgroundColor LightYellow
+    }
+}
+</style>
+title 大前端趋势分析
+
+
+* 大前端 <<level1>>
+** 网页端 <<level2>>
+*** 传统渲染 <<level3>>
+**** jQuery <<level4>>
+**** 页面路由 <<level4>>
+**** 数据流的管理 <<level4>>
+*** MS Blazor <<level3>>
+**** Blazor Server <<level4>>
+**** Blazor Web Assembly <<level4>>
+*** 单页应用程序 <<level3>>
+**** CSS扩展 (LESS, SASS, SCSS) <<level4>>
+**** 页面路由 <<level4>>
+**** 数据流的管理 <<level4>>
+**** 组件管理 <<level4>>
+**** 技术选型 <<level4>>
+***** JSX <<level4>>
+***** TSX <<level4>>
+***** Javascript <<level4>>
+***** Typescript <<level4>>
+***** 技术学习活跃度 <<level4>>
+****** React, Vue <<level5>>
+***** 技术保值 <<level4>>
+****** Angular最好 <<level5>>
+***** 技术门槛 <<level4>>
+***** 数据管理选型 <<level4>>
+****** 单向数据流-》三者皆可
+****** 双向数据流-》Vue, Angular
+****** 依赖注入-》Angular
+**** 技术种类 <<level4>>
+***** AngularJS <<level5>>
+***** React <<level5>>
+****** Class组件 <<level6>>
+****** 函数组件 <<level6>>
+****** Hooks <<level6>>
+****** 单向数据流 <<level6>>
+****** JSX <<level6>>
+****** Redux <<level6>>
+******* Store <<level7>>
+******* Reducer <<level7>>
+******* Effect <<level7>>
+******* Action <<level7>>
+******* Selector <<level7>>
+***** Vue <<level5>>
+****** VueX <<level6>>
+******* Store <<level7>>
+******* Mutation/Compute <<level7>>
+******* Action <<level7>>
+******* Getter <<level7>>
+****** 单向数据流 <<level6>>
+****** 双向数据流 <<level6>>
+***** Angular <<level5>>
+****** 依赖注入 (Service) <<level6>>
+****** Directives <<level6>>
+****** Module <<level6>>
+****** 单向数据流 <<level6>>
+******* NgRX <<level7>>
+******** Store <<level8>>
+******** Reducer <<level8>>
+******** Effect <<level8>>
+******** Action <<level8>>
+******** Selector <<level8>>
+****** 双向数据流 <<level6>>
+******* Input [] <<level7>>
+******* Output () <<level7>>
+
+
+** 移动（手机端）<<level2>>
+** 桌面端 <<level2>>
+
+
+@endmindmap
