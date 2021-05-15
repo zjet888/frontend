@@ -128,9 +128,66 @@ title 大前端趋势分析
 ******* Input [] <<level7>>
 ******* Output () <<level7>>
 
-
 ** 移动（手机端）<<level2>>
+
+*** 跨平台 <<level3>>
+**** Flash <<level4>>
+***** ActionScript 2/3 <<level5>>
+**** QT <<level4>>
+***** C++ <<level5>>
+**** Unreal Engine <<level4>>
+***** C++ <<level5>>
+**** Unity 3D <<level4>>
+***** C# <<level5>>
+**** Xamarin <<level4>>
+***** C# <<level5>>
+**** ionic <<level4>>
+***** Angular <<level5>>
+**** React Native <<level4>>
+***** React <<level5>>
+**** Fultter <<level4>>
+***** Dart <<level5>>
+*** 原生开发 <<level3>>
+**** Android  <<level4>>
+***** JPG  <<level6>>
+***** SVG  <<level6>>
+***** PNG  <<level6>>
+***** XML  <<level6>>
+***** Java  <<level6>>
+***** Kotlin  <<level6>>
+***** C/C++  <<level6>>
+**** iOS  <<level4>>
+***** PDF  <<level5>>
+***** Objective-C  <<level5>>
+***** Swift  <<level5>>
+***** C/C++ <<level5>>
+**** Windows Phone  <<level4>>
+***** JPG  <<level5>>
+***** SVG  <<level5>>
+***** PNG  <<level5>>
+***** C#  <<level5>>
+***** WPF  <<level5>>
+***** XAML  <<level5>>
 ** 桌面端 <<level2>>
-
-
+*** Electron <<level3>>
+**** Javascript, html, css <<level4>>
+*** 逐渐没落的技术 <<level3>>
+**** Java Swing <<level4>>
+**** Delphi <<level4>>
+*** Java FX <<level3>>
+**** Java <<level4>>
+*** MFC <<level3>>
+**** C++ <<level4>>
+*** WPF <<level3>>
+**** C# <<level4>>
+*** VB.Net <<level3>>
+**** VB <<level4>>
+*** WinForm <<level3>>
+**** C# <<level4>>
+*** QT <<level3>>
+**** C++ <<level4>>
+*** Unity 3D <<level3>>
+**** C# <<level4>>
+*** Unreal Engine <<level3>>
+**** C++ <<level4>>
 @endmindmap
