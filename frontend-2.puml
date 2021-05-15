@@ -8,11 +8,11 @@ mindmapDiagram {
         BackgroundColor lightgreen
     }
     .level3 {
-        BackgroundColor FFBBCC
+        BackgroundColor LightSeaGreen
     }
 
     .level4 {
-        BackgroundColor lightblue
+        BackgroundColor #00ffcc
     }
 
     .level5 {
@@ -40,6 +40,31 @@ title 大前端趋势分析
 
 * 大前端 <<level1>>
 ** 网页端 <<level2>>
+*** 测试框架 <<level3>>
+**** 都有默认的推荐 <<level4>>
+**** jest <<level4>>
+**** jasmine <<level4>>
+**** karma <<level4>>
+*** NodeJS <<level3>>
+*** NPM/Grunt <<level3>>
+*** Webpack <<level3>>
+*** Babel/Gulp <<level3>>
+*** Bundle大小控制 <<level3>>
+**** 程序库的选择 <<level4>>
+***** Module的引入指定 <<level5>>
+*** 界面库的选择 <<level3>>
+**** BootStrap <<level4>>
+**** Material <<level4>>
+**** Prime  <<level4>>
+**** Ant Design <<level4>>
+**** ChartJS <<level4>>
+**** Echarts <<level4>>
+**** AntV G6 <<level4>>
+**** 检查尺寸变化程序库 <<level4>>
+***** 性能选最好 <<level5>>
+***** 评论好 <<level5>>
+***** 下载量要大 <<level5>>
+***** 程序库的越小越好 <<level5>>
 *** 传统渲染 <<level3>>
 **** jQuery <<level4>>
 **** 页面路由 <<level4>>
@@ -53,19 +78,19 @@ title 大前端趋势分析
 **** 数据流的管理 <<level4>>
 **** 组件管理 <<level4>>
 **** 技术选型 <<level4>>
-***** JSX <<level4>>
-***** TSX <<level4>>
-***** Javascript <<level4>>
-***** Typescript <<level4>>
-***** 技术学习活跃度 <<level4>>
-****** React, Vue <<level5>>
-***** 技术保值 <<level4>>
-****** Angular最好 <<level5>>
-***** 技术门槛 <<level4>>
-***** 数据管理选型 <<level4>>
-****** 单向数据流-》三者皆可
-****** 双向数据流-》Vue, Angular
-****** 依赖注入-》Angular
+***** JSX <<level5>>
+***** TSX <<level5>>
+***** Javascript <<level5>>
+***** Typescript <<level5>>
+***** 技术学习活跃度 <<level5>>
+****** React, Vue <<level6>>
+***** 技术保值 <<level5>>
+****** Angular最好 <<level6>>
+***** 技术门槛 <<level5>>
+***** 数据管理选型 <<level5>>
+****** 单向数据流-》三者皆可 <<level6>>
+****** 双向数据流-》Vue, Angular <<level6>>
+****** 依赖注入-》Angular <<level6>>
 **** 技术种类 <<level4>>
 ***** AngularJS <<level5>>
 ***** React <<level5>>
