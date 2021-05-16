@@ -46,21 +46,75 @@ title 大前端趋势分析
 ***** bind<<level5>>
 ***** apply<<level5>>
 ***** call<<level5>>
-***** asyc/await<<level5>>
-***** setTimeout<<level5>>
-***** Promise<<level5>>
-***** Observables<<level5>>
-***** class<<level5>>
-***** let<<level5>>
-***** var<<level5>>
-***** const<<level5>>
-***** import<<level5>>
-***** export<<level5>>
+**** asyc/await<<level4>>
+**** setTimeout<<level4>>
+**** Promise<<level4>>
+**** let <<level4>>
+**** var <<level4>>
+**** const <<level4>>
+**** import <<level4>>
+**** export <<level4>>
 **** lambda <<level4>>
 **** closure <<level4>>
 *** Typescript <<level3>>
+**** Class <<level4>>
+**** Observables<<level4>>
+**** Interface <<level4>>
+**** Enum <<level4>>
+**** 继承  <<level4>>
+****  多态  <<level4>>
+**** 类型安全 <<level4>>
+**** "===" <<level4>>
+**** Set <<level4>>
+**** Array <<level4>>
+**** Map <<level4>>
+**** 操作函数 <<level4>>
+***** filter <<level5>>
+***** map <<level5>>
+***** forEach <<level5>>
+***** find <<level5>>
+***** findIndex <<level5>>
+***** indexOf <<level5>>
 *** WebAssembly <<level3>>
+**** Blazor WebAssembly <<level4>>
+**** wasm <<level4>>
+***** c/c++ <<level5>>
+***** c# <<level5>>
+***** D <<level5>>
+***** Go <<level5>>
+***** Kotlin <<level5>>
+***** Zig <<level5>>
+***** Pascal <<level5>>
+***** rust <<level5>>
+***** F# <<level5>>
+***** Swift <<level5>>
 *** HTML <<level3>>
+**** html <<level4>>
+**** body <<level4>>
+***** div<<level5>>
+***** span<<level5>>
+***** ol<<level5>>
+***** ul<<level5>>
+***** li<<level5>>
+***** button<<level5>>
+***** checkbox<<level5>>
+***** label<<level5>>
+***** video<<level5>>
+***** image (img) <<level5>>
+***** audio <<level5>>
+***** canvas<<level5>>
+****** context 2d<<level6>>
+******* Line <<level7>>
+******* Rectangle <<level7>>
+******* Circle <<level7>>
+******* Text <<level7>>
+******* save <<level7>>
+******* restore <<level7>>
+***** attribute<<level5>>
+**** head <<level4>>
+**** script <<level4>>
+**** style <<level4>>
+
 *** CSS, LESS, SCSS, SASS <<level3>>
 *** JSX <<level3>>
 *** TSX <<level3>>
