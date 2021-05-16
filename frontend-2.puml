@@ -39,6 +39,40 @@ title 大前端趋势分析
 
 
 * 大前端 <<level1>>
+** 编程语言 <<level2>>
+*** Javascript <<level3>>
+**** function <<level4>>
+***** ()<<level5>>
+***** bind<<level5>>
+***** apply<<level5>>
+***** call<<level5>>
+***** asyc/await<<level5>>
+***** setTimeout<<level5>>
+***** Promise<<level5>>
+***** Observables<<level5>>
+***** class<<level5>>
+***** let<<level5>>
+***** var<<level5>>
+***** const<<level5>>
+***** import<<level5>>
+***** export<<level5>>
+**** lambda <<level4>>
+**** closure <<level4>>
+*** Typescript <<level3>>
+*** WebAssembly <<level3>>
+*** HTML <<level3>>
+*** CSS, LESS, SCSS, SASS <<level3>>
+*** JSX <<level3>>
+*** TSX <<level3>>
+*** VUE <<level3>>
+*** Java <<level3>>
+*** Kotlin <<level3>>
+*** C++ <<level3>>
+*** Swift <<level3>>
+*** Objective-C <<level3>>
+*** C# <<level3>>
+
+
 ** 设计模式 <<level2>>
 *** MVC <<level3>>
 **** Model <<level4>>
