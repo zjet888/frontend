@@ -116,11 +116,55 @@ title 大前端趋势分析
 **** style <<level4>>
 
 *** CSS, LESS, SCSS, SASS <<level3>>
+**** Padding <<level4>>
+***** Left <<level5>>
+***** Right <<level5>>
+***** Top  <<level5>>
+***** Bottom  <<level5>>
+**** Margin <<level4>>
+***** Left <<level5>>
+***** Right <<level5>>
+***** Top  <<level5>>
+***** Bottom  <<level5>>
+**** Border <<level4>>
+***** Left <<level5>>
+***** Right <<level5>>
+***** Top  <<level5>>
+***** Bottom  <<level5>>
+***** Color  <<level5>>
+***** Style  <<level5>>
+**** Background <<level4>>
+**** Scale <<level4>>
+**** Translate <<level4>>
+**** Rotate <<level4>>
+**** Opaque <<level4>>
+**** Font <<level4>>
+***** Font-Size <<level5>>
+***** Font-Color <<level5>>
+***** Font <<level5>>
+**** Flex-box <<level4>>
+***** align-items <<level5>>
+***** just-content <<level5>>
+***** flex-direction <<level5>>
+***** flex <<level5>>
+**** Selectors <<level4>>
+***** class <<level5>>
+***** ID <<level5>>
+***** tag <<level5>>
+***** 嵌套 <<level5>>
+**** LESS, SCSS, SASS <<level4>>
+***** Variable <<level5>>
+***** mixin <<level5>>
+***** extends <<level5>>
 *** JSX <<level3>>
 *** TSX <<level3>>
 *** VUE <<level3>>
 *** Java <<level3>>
+**** Lambda <<level4>>
+**** Streams <<level4>>
+**** Operators (Intermediate, Terminal) <<level4>>
 *** Kotlin <<level3>>
+**** 去除了hashCode, equals <<level4>>
 *** C++ <<level3>>
 *** Swift <<level3>>
 *** Objective-C <<level3>>
@@ -233,6 +277,15 @@ title 大前端趋势分析
 ** 移动（手机端）<<level2>>
 
 *** 跨平台 <<level3>>
+**** 微信小程序 <<level4>>
+***** Javascript <<level5>>
+***** Typescript <<level5>>
+***** HTML <<level5>>
+***** WX Request <<level5>>
+***** CSS <<level5>>
+***** WeUI  <<level5>>
+***** 创建路由生成代码  <<level5>>
+
 **** Flash <<level4>>
 ***** ActionScript 2/3 <<level5>>
 **** QT <<level4>>
