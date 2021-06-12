@@ -1,0 +1,189 @@
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightGreen
+    }
+    :depth(0) {
+        BackGroundColor #ffffcc
+    }
+    :depth(1) {
+        BackGroundColor #ffccff
+    }
+    :depth(2) {
+        BackGroundColor #33cc33
+    }
+    :depth(3) {
+        BackGroundColor #3399ff
+    }
+    :depth(4) {
+        BackGroundColor #99cc00
+    }
+    :depth(5) {
+        BackGroundColor #999966
+    }
+    boxless {
+        FontColor darkgreen
+    }
+}
+</style>
+* Angular
+** Angular是什么？
+*** 平台框架
+**** TypeScript
+**** 组件
+**** 程序库 （路由，表单，通信）
+**** 开发工具 （npm, ng）
+** Angular要点
+*** 组件的构成
+**** @Component类
+***** Selector
+**** HTML模版
+***** 扩展了HTML，支持动态数据
+****** 表达式{{}}
+****** 输入[]
+****** 输出()
+***** 管道 （date, json, async自定义）
+***** 属性绑定 （Attribute, Class等等）
+****** 优先级：模板绑定(class,style)》指令宿主绑定(表达式)》组件宿主绑定（host）
+****** 注入属性
+******* @Attribute
+***** 事件绑定
+****** 内置事件（click）
+****** 自定义事件（EventEmitter）
+***** 双向绑定
+****** 属性绑定输入数据
+****** 事件绑定输出数据
+***** 模版应用 #
+****** 可以作为变量传入使用
+***** 指令
+****** NgClass 
+****** NgStyle  
+****** NgModel     
+****** NgIf      
+****** NgFor     
+****** NgSwitch     
+****** 自创结构性指令
+******* directive      
+**** SVG模板
+**** 样式文件
+*** 组件的生命周期
+**** ngOnInit
+**** ngOnChanges
+**** ngDoCheck
+**** ngAfterContentInit
+**** ngAfterContentChecked
+**** ngAfterViewInit
+**** ngAfterViewChecked
+**** ngOnDestroy
+**** ViewChild
+**** ContentChild
+*** 视图封装模式
+**** ShadowDom （样式不进不出）
+**** Emulated  （样式能进不出）
+**** None  （样式能进能出）
+*** 组件交互
+**** 数据绑定
+**** setter
+**** ngOnChanges
+**** EventEmitter
+**** 本地变量
+**** ViewChild
+**** Subject
+*** 组件样式
+**** 范围化
+**** 特殊的选择器
+***** :host
+***** :host-context
+***** 已弃用 /deep/、>>> 和 ::ng-deep
+**** 样式加载进组件
+***** styles 
+***** styleUrls  
+***** 内联 
+***** CSS导入 （link，import）
+***** 非CSS (scss，less， styl) 
+*** 内容投影
+**** ng-content
+**** 单插槽内容投影 ( <ng-content></ng-content>)
+**** 多插槽内容投影 (<ng-content select="[id]"></ng-content>)
+**** 有条件内容投影 (ng-template)
+*** 动态组件
+**** ComponentFactoryResolver 
+**** ViewContainerRef
+*** Angular元素
+**** CustomElementRegistry
+**** createCustomElement()
+*** 依赖注入
+**** 无需关心实例化及其管理
+*** Angular ClI
+**** ng build
+**** ng serve
+**** ng generate
+**** ng test
+**** ng e2e
+*** 自带程序库
+**** 路由
+**** Form
+**** HttpClient
+***** 请求 （post, put, delete, get, patch） 
+***** body  
+***** FormData  
+***** HttpParams  
+***** responseType  
+***** HttpInterceptor 
+**** Animation
+***** animations->trigger->state->style
+***** transition->animate
+***** :leave, :enter, :increment, :decrement
+***** query()
+***** stagger()
+***** stagger()
+***** sequence()
+***** 可复用动画useAnimation
+**** Service Worker 与 PWA
+***** ng add @angular/pwa
+***** ngsw-config.json
+***** 缓存
+**** Web Manifest
+**** schematics-代码生成器
+** Angular快速入门
+*** 搭建环境
+**** nodejs
+**** npm
+**** 安装angular/cli
+***** npm install -g @angular/cli
+**** 创建工程
+***** ng new
+**** 运行
+***** ng serve --open
+**** 部署应用
+***** ng build
+***** 任何Web服务器上 （nodejs, java, .Net等等）
+*** 常见的程序结构
+**** <app-root>
+**** <app-root>
+**** <app-content>
+*** 数据管理
+**** Input
+**** Output
+**** Service
+*** 页面路由
+**** RouterModule
+**** Router
+***** path->component
+**** 路由数据
+***** route.snapshot.paramMap
+*** 页面数据
+**** 表单 FormBuilder
+**** 双向数据绑定
+** Angular本地化
+*** i18n
+*** ngx-translate
+** Angular Observables
+*** EventEmitter
+*** HTTP
+*** Async 管道
+*** Router
+**** NavigationStart等等
+*** FormControl
+@endmindmap
