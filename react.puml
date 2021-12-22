@@ -1,0 +1,127 @@
+@startmindmap
+<style>
+mindmapDiagram {
+    node {
+        BackgroundColor lightGreen
+    }
+    :depth(0) {
+        BackGroundColor #ffffcc
+    }
+    :depth(1) {
+        BackGroundColor #ffccff
+    }
+    :depth(2) {
+        BackGroundColor #33cc33
+    }
+    :depth(3) {
+        BackGroundColor #3399ff
+    }
+    :depth(4) {
+        BackGroundColor #99cc00
+    }
+    :depth(5) {
+        BackGroundColor #999966
+    }
+    boxless {
+        FontColor darkgreen
+    }
+}
+</style>
+* React
+** 核心概念
+*** JSX
+*** 元素渲染
+**** 只会更新实际改变了的内容
+*** 组件
+**** 函数组件
+**** 类组件
+**** 组件渲染
+**** 组合组件
+**** Props 
+***** 只读性
+**** State
+***** 只读
+***** setState
+**** 生命周期
+***** componentDidMount
+***** componentWillUnmount
+*** 事件处理
+**** 小驼峰 camelCase
+**** 箭头函数
+**** bind
+*** 条件渲染
+**** if 
+**** 三目运算
+**** 组织渲染
+***** warn
+*** 列表和Key
+**** key 放在就近的数组
+**** 兄弟节点之间，可是必须的
+**** 可以在JSX中使用map
+*** 表单
+**** 组件化
+***** Formik
+*** 状态变化
+**** setState会触发Render
+*** 组合与继承
+**** 嵌入
+**** import
+** React哲学
+*** 组件分层
+*** 确定State的最小表示
+*** 确定那些组件可以改变State
+*** 单向数据流
+*** 反向数据流
+**** setState
+** Hook
+*** 在组件之间复用状态逻辑很难
+*** 复杂组件变得难以理解
+*** 难以理解的 class
+**** this
+*** State Hook
+**** 可以声明多个State
+**** 方括号
+**** 声明 State 变量
+**** 读取 State 变量
+**** 改写 State 变量
+*** Effect Hook
+**** useEffect 会在每次渲染后都执行
+**** 可能需要清除，需要返回一个函数
+*** Hook 使用规则
+**** 只能在函数最外层调用 Hook
+***** 不要在循环，条件或嵌套函数中调用 Hook
+**** 只能在 React 的函数组件中调用 Hook
+***** 不要在普通的 JavaScript 函数中调用 Hook。
+****  eslint-plugin-react-hooks
+*** 自定义 Hook
+**** 是一个函数，其名称以 “use” 开头
+***** 函数内部可以调用其他的 Hook。
+*** Hook API 索引
+**** 基础 Hook
+***** useState
+***** useEffect
+***** useContext
+**** 额外的 Hook
+***** useReducer
+***** useCallback
+***** useMemo
+***** useRef
+***** useImperativeHandle
+***** useLayoutEffect
+***** useDebugValue
+** 测试
+*** Jest
+**** jsdom
+**** 模块
+**** 计时器
+**** 创建/清理
+**** act()
+**** 渲染
+**** 数据获取
+**** mock 模块
+**** 事件
+**** 计时器
+**** 快照测试
+**** 多渲染器
+
+@endmindmap

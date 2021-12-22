@@ -38,7 +38,7 @@ mindmapDiagram {
 *** 组件的构成
 **** @Component类
 ***** Selector
-**** HTML模版
+**** HTML模板
 ***** 扩展了HTML，支持动态数据
 ****** 表达式{{}}
 ****** 输入[]
@@ -137,7 +137,6 @@ mindmapDiagram {
 ***** :leave, :enter, :increment, :decrement
 ***** query()
 ***** stagger()
-***** stagger()
 ***** sequence()
 ***** 可复用动画useAnimation
 **** Service Worker 与 PWA
@@ -161,7 +160,7 @@ mindmapDiagram {
 ***** 任何Web服务器上 （nodejs, java, .Net等等）
 *** 常见的程序结构
 **** <app-root>
-**** <app-root>
+**** <app-toolbar>
 **** <app-content>
 *** 数据管理
 **** Input
@@ -185,5 +184,4 @@ mindmapDiagram {
 *** Async 管道
 *** Router
 **** NavigationStart等等
-*** FormControl
 @endmindmap
